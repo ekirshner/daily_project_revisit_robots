@@ -1,0 +1,87 @@
+#robot-section {
+    display: flex;
+    flex-wrap: wrap; 
+    text-align: left;
+    justify-content: space-around;
+}
+
+div {
+    border: 1px solid black;
+    width: 16%;
+    margin: 1%;
+    font-family: sans-serif;
+    padding-left: 1%;
+    background-color: white;
+}
+
+.robo {
+    font-size: 14px;
+    color: #009ACD;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 10px;
+}
+
+h3,
+.countries {
+    font-size: 10px;
+    font-weight: normal;
+    margin-bottom: 3%; 
+}
+
+p {
+    font-size: 10px;
+    color: red;
+    font-weight: bold;
+}
+
+img {
+    text-align: center;
+}
+
+#link-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10%; 
+}
+
+a {
+    margin-left: 1%;
+    color: white;
+    font-size: 20px;
+}
+
+a:hover {
+    color: #70DBDB;
+}
+
+#robot-section {
+    background-image: url("http://previews.123rf.com/images/kchung/kchung1505/kchung150500504/39872699-stamp-hire-me-now-in-red-over-white-background-Stock-Vector.jpg");
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmgeNqEXrPIiGLHgSxMbQn-lJO3veWqhBiABqQy8psqbJoEFl-KA');
+    background-attachment: fixed;
+}
+
+header {
+    background-color: black; 
+    font-family: "Lucida Console", Monaco, monospace;
+    font-family: 'Share Tech Mono', monospace;
+    text-align: center;
+    padding: 1%; 
+}
+
+#title {
+    color: white;
+    font-size: 50px;
+    margin: 1%;
+    text-transform: uppercase;
+}
+
+.countries {
+    /* text-decoration: none; */
+    color: black;
+    position: relative;
+    bottom: 2px;
+    right: 2px;
+}

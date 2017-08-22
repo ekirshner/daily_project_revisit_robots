@@ -2,14 +2,26 @@
 <html>
     <head>
         <title>RoboGO</title>
+        <link rel="stylesheet" type="text/css" href="/styles.css">
+        <style>@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');</style>
     </head>
     <body>
-         <section>
+
+        <header>
+            <h1 id="title">Robots for Hire</h1>
+             <section id="link-section">   
+                <a href="/">All Robots</a>
+                <a href="/looking">Looking for Work</a>
+                <a href="/employed">Currently Employed</a>
+            </section>
+        </header>
+
+       
+        <section id="robot-section">
             {{#users}}
                 <div>
                     <img src="{{avatar}}">
-                    <h1>{{name}}</h1>
-
+                    <h1 class="robo">{{name}}</h1>
                     {{#job}}
                         <h2>{{job}}</h2>
                         <h3>{{company}}</h3>
@@ -18,9 +30,10 @@
                     {{^job}}
                         <p>Available for hire</p>
                     {{/job}}
-        
+                    <a href="/country/{{ address.country }}" class="countries">{{ address.country }} </a>
                 </div>
             {{/users}}
         </section>
+        
     </body>
 </html>
