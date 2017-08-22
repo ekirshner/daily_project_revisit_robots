@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+    <head>
+        <title>RoboGO</title>
+    </head>
+    <body>
+         <section>
+            {{#users}}
+                <div>
+                    <img src="{{avatar}}">
+                    <h1>{{name}}</h1>
+
+                    {{#job}}
+                        <h2>{{job}}</h2>
+                        <h3>{{company}}</h3>
+                    {{/job}}
+                    
+                    {{^job}}
+                        <p>Available for hire</p>
+                    {{/job}}
+        
+                </div>
+            {{/users}}
+        </section>
+    </body>
+</html>
