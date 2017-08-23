@@ -1,14 +1,3 @@
-// require the data.js file.
-// require ./data
-
-// after we require the data, we have an array called
-// 'users'.
-// we need to loop through this array and store each user in mongo
-
-
-//1) take the data from the js file and put it into the database
-//2) switch the code so it pulls from the database instead of the js file
-
 
 let client = require('mongodb').MongoClient;
 //require data
